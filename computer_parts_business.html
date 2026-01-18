@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zentrix PC | Computer Parts Store</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body { background: #f4f6f8; color: #222; line-height: 1.6; }
+    header { background: #0f172a; color: #fff; padding: 20px; text-align: center; }
+    header h1 { font-size: 32px; }
+    header p { color: #cbd5f5; }
+
+    nav { background: #020617; display: flex; justify-content: center; gap: 20px; padding: 10px; }
+    nav a { color: #fff; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #38bdf8; }
+
+    section { padding: 40px 20px; max-width: 1100px; margin: auto; }
+    .hero { text-align: center; }
+    .hero h2 { font-size: 28px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; color: #555; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+    .card { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .card img { width: 100%; height: 160px; object-fit: contain; margin-bottom: 15px; }
+    .card:hover { transform: translateY(-8px); box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+    .card h3 { margin-bottom: 10px; transition: color 0.3s ease; }
+    .card:hover h3 { color: #0ea5e9; }
+
+    .cta { background: #0ea5e9; color: #fff; text-align: center; padding: 40px 20px; }
+    .cta h2 { margin-bottom: 10px; }
+    .cta a { display: inline-block; margin-top: 15px; background: #020617; color: #fff; padding: 12px 25px; border-radius: 5px; text-decoration: none; }
+
+    footer { background: #020617; color: #94a3b8; text-align: center; padding: 20px; font-size: 14px; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 24px; }
+      .hero h2 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Zentrix PC</h1>
+  <p>Premium Computer Parts & Accessories | India</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#whyus">Why Us</a>
+  <a href="#contact">Contact</a>
+  <a href="#pcbuild">PC Build</a>
+  <a href="#refurbished">Refurbished</a>
+</nav>
+
+<section id="home" class="hero">
+  <h2>Your Trusted PC Parts & Accessories Store</h2>
+  <p>We provide genuine computer components at competitive prices. Fast delivery across India.</p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <div class="grid">
+    <div class="card"><img src="https://via.placeholder.com/300x200?text=RAM" alt="RAM"><h3>RAM</h3><p>DDR4 / DDR5 branded memory with warranty.</p><p><b>Rs. </b></p><a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%20want%20to%20buy%20RAM" style="display:inline-block;margin-top:10px;color:#0ea5e9;font-weight:bold;">Order on WhatsApp</a></div>
+    <div class="card"><img src="https://via.placeholder.com/300x200?text=RAM" alt="SSD"><h3>SSD</h3><p>NVMe & SATA SSD for fast performance.</p><p><b>Rs. </b></p><a href="https://wa.me/9382397268?text=Hi%2C%20I%20want%20to%20buy%20SSD" style="display:inline-block;margin-top:10px;color:#0ea5e9;font-weight:bold;">Order on WhatsApp</a></div>
+    <div class="card"><img src="https://via.placeholder.com/300x200?text=RAM" alt="Keyboard"><h3>Keyboard</h3><p>Gaming & office accessories.</p><p><b>Rs. </b></p><a href="https://wa.me/9382397268?text=Hi%2C%20I%20want%20Keyboard%20Mouse" style="display:inline-block;margin-top:10px;color:#0ea5e9;font-weight:bold;">Order on WhatsApp</a></div>
+    <div class="card"><img src="https://via.placeholder.com/300x200?text=RAM" alt="Mouse"><h3>Mouse</h3><p>Gaming & office accessories.</p><p><b>Rs. </b></p><a href="https://wa.me/9382397268?text=Hi%2C%20I%20want%20Keyboard%20Mouse" style="display:inline-block;margin-top:10px;color:#0ea5e9;font-weight:bold;">Order on WhatsApp</a></div>
+    <div class="card"><img src="https://via.placeholder.com/300x200?text=RAM" alt="PowerSupply"><h3>Power Supply</h3><p>Safe & reliable PSUs.</p><p><b>Rs. </b></p><a href="https://wa.me/9382397268?text=Hi%2C%20I%20want%20Power%20Supply" style="display:inline-block;margin-top:10px;color:#0ea5e9;font-weight:bold;">Order on WhatsApp</a></div>
+  </div>
+</section>
+
+<section id="pcbuild">
+  <h2>Your Need, Our Commitment.</h2>
+  <div class="grid">
+    <div class="card"><img src="https://via.placeholder.com/300x200?text=RAM" alt="office"><h3>Office PC Build</h3><p>Simple, Powerfull & Budget friendly with warranty.</p><p><b>More ..... </b></p><a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%20want%20to%20buy%20RAM" style="display:inline-block;margin-top:10px;color:#0ea5e9;font-weight:bold;">Asked on WhatsApp</a></div>
+    <div class="card"><img src="https://via.placeholder.com/300x200?text=RAM" alt="Home"><h3>Home PC Build</h3><p>Powerfull, Reliable & Budget friendly with warranty.</p><p><b>More ..... </b></p><a href="https://wa.me/9382397268?text=Hi%2C%20I%20want%20to%20buy%20SSD" style="display:inline-block;margin-top:10px;color:#0ea5e9;font-weight:bold;">Asked on WhatsApp</a></div>
+    <div class="card"><img src="https://via.placeholder.com/300x200?text=RAM" alt="Gaming"><h3>Dream Gaming PC</h3><p>Gaming, Best Performance with Smooth FPS & Budget friendly with warranty.</p><p><b>More.... </b></p><a href="https://wa.me/9382397268?text=Hi%2C%20I%20want%20Keyboard%20Mouse" style="display:inline-block;margin-top:10px;color:#0ea5e9;font-weight:bold;">Asked on WhatsApp</a></div>
+  </div>
+</section>
+
+<section id="whyus">
+  <h2>Why Choose Us?</h2>
+  <div class="grid">
+    <div class="card"><h3>100% Genuine</h3><p>Original products with bill & warranty.</p></div>
+    <div class="card"><h3>Best Price</h3><p>Competitive pricing direct from distributor.</p></div>
+    <div class="card"><h3>Fast Delivery</h3><p>West Bengal & All India delivery available.</p></div>
+  </div>
+</section>
+
+<section id="refurbished">
+  <h2>Refurbished</h2>
+  <div class="grid">
+    <div class="card"><h3>Sell your pre-owned items through our platform.</h3><p>With Original products bill.</p></div>
+    <div class="card"><h3>We provide a trusted platform</h3><p> to sell your pre-owned belongings.</p></div>
+   <!-- <div class="card"><img src="https://via.placeholder.com/300x200?text=RAM" alt="Gaming"><h3>Keyboard</h3><p>Gaming, Best Performance, Smooth FPS & Budget friendly with warranty.</p><p><b>More.... </b></p><a href="https://wa.me/9382397268?text=Hi%2C%20I%20want%20Keyboard%20Mouse" style="display:inline-block;margin-top:10px;color:#0ea5e9;font-weight:bold;">Asked on WhatsApp</a></div> -->
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <h2>Contact & Order</h2>
+  <p>WhatsApp us for latest price & availability</p>
+  <a href="https://wa.me/9382397268" target="_blank">Chat on WhatsApp</a>
+  <p style="margin-top:15px;">📍 West Bengal, India</p>
+</section>
+
+<footer>
+  <p>© 2026 Zentrix PC. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
