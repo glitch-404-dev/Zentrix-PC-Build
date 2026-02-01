@@ -1,6 +1,3 @@
-# Zentrix-PC-Build
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
